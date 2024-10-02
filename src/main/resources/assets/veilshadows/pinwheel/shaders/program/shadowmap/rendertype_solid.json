@@ -1,0 +1,4 @@
+{
+  "vertex": "veilshadows:shadowmap/block",
+  "fragment": "veilshadows:shadowmap/rendertype_solid"
+}

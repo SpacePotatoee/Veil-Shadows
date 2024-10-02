@@ -18,6 +18,9 @@
 		"main": [
 			"com.sp.VeilShadows"
 		],
+		"client": [
+		"com.sp.VeilShadowsClient"
+		],
 		"fabric-datagen": [
 			"com.sp.VeilShadowsDataGenerator"
 		]

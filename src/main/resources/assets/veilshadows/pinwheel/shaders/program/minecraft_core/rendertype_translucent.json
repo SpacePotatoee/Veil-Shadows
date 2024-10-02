@@ -1,0 +1,24 @@
+{
+  "vertex": "veilshadows:minecraft_core/block",
+  "fragment": "veilshadows:minecraft_core/rendertype_translucent",
+  "textures": {
+    "ShadowSampler": {
+      "type": "framebuffer",
+      "name": "veilshadows:shadowmap:depth"
+    },
+    "AlbedoSampler": {
+      "type": "framebuffer",
+      "name": "veil:opaque",
+      "sampler": 1
+    },
+    "NoiseTex": {
+      "type": "location",
+      "location": "veilshadows:textures/shaders/rnoise.png"
+    },
+    "DepthSampler": {
+      "type": "framebuffer",
+      "name": "veil:transparent",
+      "sampler": 6
+    }
+  }
+}
