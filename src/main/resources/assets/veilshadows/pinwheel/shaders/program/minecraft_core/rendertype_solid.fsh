@@ -2,11 +2,13 @@
 #include veil:camera
 #include veil:deferred_utils
 
+///////////////////////////////////
 //Higher values means softer shadows but makes your game MUCH laggier
 #define SHADOW_SAMPLES 2
 
 //Higher values means darker shadows
 #define SHADOW_STRENGTH 0.8
+///////////////////////////////////
 
 uniform sampler2D Sampler0;
 uniform sampler2D ShadowSampler;
