@@ -34,16 +34,16 @@ public abstract class ShaderInstanceMixin implements UniformStuff {
         return lightAngle;
     }
 
-    @Unique
+    //@Unique
     public Uniform orthoMatrix;
 
-    @Unique
+    //@Unique
     public Uniform viewMatrix;
 
-    @Unique
+    //@Unique
     public Uniform lightAngle;
 
-    @Inject(method = "<init>", at = @At("TAIL"))
+    //@Inject(method = "<init>", at = @At("TAIL"))
     public void injectUniforms(ResourceProvider resourceProvider, String string, VertexFormat vertexFormat, CallbackInfo ci){
         this.orthoMatrix = this.getUniform("orthoMatrix");
         this.viewMatrix = this.getUniform("viewRix");

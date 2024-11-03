@@ -1,0 +1,43 @@
+{
+  "stages": [
+    {
+      "type": "veil:blit",
+      "shader": "veilshadows:shadows",
+      "in": "veil:post",
+      "out": "swap"
+    },
+    {
+      "type": "veil:copy",
+      "in": "swap",
+      "out": "veil:post"
+    }
+  ],
+  "framebuffers": {
+    "swap": {
+      "depth": true
+    }
+  },
+  "textures": {
+    "NoiseTex": {
+      "type": "location",
+      "location": "veilshadows:textures/shaders/rnoise.png"
+    },
+    "ShadowSampler": {
+      "type": "framebuffer",
+      "name": "veilshadows:shadowmap:depth"
+    },
+    "DepthSampler": {
+      "type": "framebuffer",
+      "name": "veil:opaque_final:depth"
+    },
+    "HandDepth": {
+      "type": "framebuffer",
+      "name": "veil:first_person:depth"
+    },
+    "NormalSampler": {
+      "type": "framebuffer",
+      "name": "veil:opaque",
+      "sampler": 2
+    }
+  }
+}
