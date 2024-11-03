@@ -4,7 +4,7 @@
 
 Just adds simple shadow mapping using veil
 
-The shadows don't follow the sun lol
+The shadows CAN follow the sun if you so choose. However there is a bug associated with it that has yet to be fixed.
 
 If you want to edit the angle of the shadows, go to the [createShadowModelView()](https://github.com/SpacePotatoee/Veil-Shadows/blob/master/src/main/java/com/sp/VeilShadowsClient.java#L70) method.
 
