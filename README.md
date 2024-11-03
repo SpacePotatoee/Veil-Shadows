@@ -1,5 +1,7 @@
 # Veil Shadows
 
+[![experimental](http://badges.github.io/stability-badges/dist/experimental.svg)](http://github.com/badges/stability-badges)
+
 Just adds simple shadow mapping using veil
 
 The shadows don't follow the sun lol
