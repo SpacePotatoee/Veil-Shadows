@@ -1,0 +1,4 @@
+{
+  "vertex": "veilshadows:shadowmap/entity",
+  "fragment": "veilshadows:shadowmap/rendertype_entity"
+}

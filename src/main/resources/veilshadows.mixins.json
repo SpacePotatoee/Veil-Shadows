@@ -9,7 +9,7 @@
   },
   "client": [
     "LevelRendererAccessor",
-    "uniforms.GameRendererMixin",
+    "GameRendererMixin",
     "uniforms.LevelRendererMixin",
     "uniforms.ShaderInstanceMixin"
   ]
